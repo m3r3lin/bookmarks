@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'account.apps.AccountConfig',
     'social_django',
     'django_extensions',
-    'sslserver'
+    'sslserver',
+    'images.apps.ImagesConfig',
 ]
 
 MIDDLEWARE = [
@@ -159,5 +160,5 @@ LOGGING = {
         },
     },
 }
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY ='1045304618750-ooaku17bsns6cm73jdn700qkkdt8nuaq.apps.googleusercontent.com'
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '1045304618750-ooaku17bsns6cm73jdn700qkkdt8nuaq.apps.googleusercontent.com'
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'rhDa8WB43ufZ5BAv5QytQU_a'
