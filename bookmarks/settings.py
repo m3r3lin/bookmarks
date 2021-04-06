@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django_extensions',
     'sslserver',
     'images.apps.ImagesConfig',
+    'easy_thumbnails'
 ]
 
 MIDDLEWARE = [

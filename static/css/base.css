@@ -215,9 +215,9 @@ a.like, a.follow { float:right; margin-top:-8px; }
 
 #image-list { overflow:auto; }
 #image-list .image {
-    float:left;
-    width:220px;
-    height:300px;
+    /*float:left;*/
+    /*width:220px;*/
+    /*height:300px;*/
     margin:0 10px 10px 10px;
     border-top:8px solid #12c064;
     background:#eee;
@@ -274,4 +274,7 @@ img.user-detail {
 .action .date {
     font-style:italic;
     color:#ccc;
+}
+.ex1 {
+  min-height: 100px;
 }
